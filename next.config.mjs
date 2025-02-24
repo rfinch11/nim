@@ -10,4 +10,11 @@ const withMDX = createMDX({
   extension: /\.mdx?$/,
 });
 
-export default withMDX(nextConfig);
+export default {
+  siteMetadata: {
+    title: "Ryan Finch",
+    description: "Design leader | UX Thinker | Writer",
+    author: "Ryan Finch",
+  }
+}
+
